@@ -1,7 +1,4 @@
-body
-{
-	background-color:Azure;
-}
+
 #lg1
 {
 	float:left;
@@ -22,7 +19,7 @@ body
 .navbar ul
 {
 	list-style-type:none;
-	background-color:aliceblue;
+	background-color:#2f2f2f;
 	
 }
 .navbar li
@@ -31,7 +28,7 @@ body
 }
 .navbar li a:hover
 {
-	background-color:white;
+	background-color:grey;
 }
 .navbar li a
 {
@@ -40,7 +37,7 @@ body
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-	color:black;
+	color:white;
 }
 .foot
 {
@@ -56,23 +53,35 @@ a:link
 }
 .header
 {
-	padding:20px 20px;
-	margin-right:20px;
-	margin-bottom:50px;
-}
+	text-align:right;
+	background-color:white;
+	padding:5px 5px;
+	margin-right:50px;
+	margin-left:15px;
+	margin-top:2px;
+	margin-bottom:-35px;
+}	
 .header h1
-{
-	float:right;
+{	
+	font-family:Arial Black;
+	color:DarkSlateGrey;
+	margin-bottom:-15px;	
 }
 .header h3
 {
-	float:right;
+	font-family:Georgia;
+	text-align:right;
+	background-color:white;
+	padding:5px 5px;
+	font-size:16px;
+	
 }
+
 #lg3
 {
 	float:left;
-	width:100px;
-	height:100px;
+	width:75px;
+	height:75px;
 }
 .what
 {
@@ -81,4 +90,6 @@ a:link
 	padding:10px 10px;
 	text-align:center;
 }
+
+
 
