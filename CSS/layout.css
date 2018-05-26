@@ -1,132 +1,85 @@
-
 #lg1
 {
 	float:left;
-	width:100px;
-	height:100px;
+	width:95px;
+	height:95px;
 	margin-top:0px;
 	margin-bottom:5px;
 }
 #lg2
 {
 	float:right;
-	width:100px;
-	height:100px;
+	width:95px;
+	height:95px;
 	margin-top:0px;
 	margin-bottom:25px;
 }
-	
+.navbar li
+ {
+ 	display:inline-block;	
+ }
+ .navbar li a:hover
+ {
+	background-color:grey;
+ }
+ .navbar li a
+ {
+	font-size:20px;	
+ 	display: block;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+	 color:white;
+ }
 .navbar ul
 {
 	list-style-type:none;
 	background-color:#2f2f2f;
 	
 }
-/*.navbar li
-{
-	display:inline-block;	
-}
-.navbar li a:hover
-{
-<<<<<<< HEAD
-=======
-	background-color:grey;
->>>>>>> aef6d1bb0dc3aec54cc94fa7d5684a40e7b0fb54
-}
-.navbar li a
-{
-	font-size:20px;	
-	display: block;   
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-	color:white;
-<<<<<<< HEAD
-}*/
-=======
-}
->>>>>>> aef6d1bb0dc3aec54cc94fa7d5684a40e7b0fb54
+
 .foot
 {
 	background-color: #2f2f2f;
     color: #ffffff;
 	text-align:center;
-	padding:10px 10px;
+	padding:5px 5px;
 	font-size:20px;
 }
-/*a:link
-{
-	color:paleyellow;
-}*/
-navbar{
-	background-color: #212121;
-}
-li1{
-	color:grey;
-}
-
-li1
-{
-	display:inline-block;
-	padding: 14px 16px;
-}
-ul
-{
-	list-style-type:none;
-}
-li
-{
-	display:inline-block;	
-}
-li a:hover
-{
-	text-decoration:underline;
-}
-li a
-{
-	font-size:18px;	
-	display: block;   
-    text-align: center;
-	text-decoration:none;
-    padding: 14px 16px;
-	color:black;
-}
+a:link
+ {
+ 	color:paleyellow;
+ }
 .header
 {
 	text-align:right;
 	background-color:white;
-	padding:5px 5px;
-	margin-right:50px;
-	margin-left:15px;
-	margin-top:2px;
-	margin-bottom:-35px;
+	padding:1px 1px;
+	margin-bottom:-45px;
+	margin-top:-15px;
 }	
 .header h1
 {	
 	font-family:Arial Black;
 	color:DarkSlateGrey;
-	margin-bottom:-15px;	
+	margin-bottom:-15px;
+	
 }
 .header h3
-{
+ {
 	font-family:Georgia;
 	text-align:right;
 	background-color:white;
 	padding:5px 5px;
 	font-size:16px;
-	
-}
-
+	margin-bottom:30px;
+ }
 #lg3
 {
 	float:left;
-<<<<<<< HEAD
 	width:50px;
 	height:50px;
-=======
-	width:75px;
-	height:75px;
->>>>>>> aef6d1bb0dc3aec54cc94fa7d5684a40e7b0fb54
+	margin-top:15px;
 }
 .what
 {
@@ -135,6 +88,5 @@ li a
 	padding:10px 10px;
 	text-align:center;
 }
-
 
 
